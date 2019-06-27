@@ -1,0 +1,17 @@
+{
+    "name": "qualitybot/cake-api-utils",
+    "type": "cakephp-plugin",
+    "description": "List of utilities for cakephp3",
+    "require": {
+        "composer/installers": "~1.0",
+        "cakephp/plugin-installer": "*"
+    },
+    "extra": {
+        "plugin-paths": ["plugins", "extra_plugins"]
+    },    
+    "autoload": {
+        "psr-4": {
+            "Utils\\": "./plugins/Utils/src/"
+        }
+    }
+}
